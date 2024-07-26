@@ -1,0 +1,94 @@
+<table class="table-bordered">
+<tr>
+<th>ID</th>
+<th>Hình Ảnh </th>
+<th>Tên Sản Phẩm</th>
+ <th>Giá Sản phẩm</th>
+<th></th>
+</tr>
+<button class="btn-danger" data-bs-toggle="modal" data-bs-target="#myModal2" ng-click="">Thêm</button>
+<tr ng-repeat="sp in dssp">
+<th > {{sp.id}}</th>
+<th>  <img src="" alt="" ng-src="{{sp.img}}" style="width:10%;"></th>
+<th>{{sp.name}}</th>
+<th>{{sp.price}}</th>
+<th>
+   <div class="col-3 m-lg-1"> <button class="btn-danger" ng-click="deletesp(sp.id)">Xoá</button>
+    
+    <button class="btn-danger" data-bs-toggle="modal" data-bs-target="#myModal" ng-click="editsp(sp)">Sửa</button>
+    
+</div>
+</th>
+
+
+</tr>
+
+
+</table>
+<div class="modal" id="myModal">
+    <div class="modal-dialog">
+    <div class="modal-content">
+    <!-- Modal Header -->
+    <div class="modal-header">
+    <h4 class="modal-title">Modal Heading</h4>
+    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+    </div>
+    <!-- Modal body -->
+    <div class="modal-body">
+    <form name="eForm" ng-submit="updateU()">
+    <input type="text" name="eSP.name" placeholder="Nhập tên" ng-model="esp.name"
+    required> <br>
+    <input type="hidden" name="eSP.id" placeholder="Nhập tên" ng-model="esp.id"
+    required> <br>
+    
+    <input type="number" name="eSP.price" placeholder="Nhập Giá" ng-model="esp.price"
+    required> <br>
+    <div style="color:red" ng-if="eForm['eSP.price'].$invalid &&
+    eForm['eUser.email'].$touched">
+    <span ng-if="eForm['eUser.email'].$error.required">Vui lòng nhập gia</span>
+    
+    </div>
+    <button data-bs-dismiss="modal">Cập nhật</button>
+    </form>
+    </div>
+    <!-- Modal footer -->
+    <div class="modal-footer">
+    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="modal" id="myModal2">
+        <div class="modal-dialog">
+        <div class="modal-content">
+        <!-- Modal Header -->
+        <div class="modal-header">
+        <h4 class="modal-title">Modal Heading</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+        <!-- Modal body -->
+        <div class="modal-body">
+        <form name="eForm" ng-submit="addproducts()">
+           
+
+        <input type="text" name="eSP.name" placeholder="Nhập tên" ng-model="esp.name"
+        required> <br>
+        
+        
+        <input type="number" name="eSP.price" placeholder="Nhập Giá" ng-model="esp.price"
+        required> <br>
+        <div style="color:red" ng-if="eForm['eSP.price'].$invalid &&
+        eForm['eUser.email'].$touched">
+        <span ng-if="eForm['eUser.email'].$error.required">Vui lòng nhập giá</span>
+        
+        </div>
+        <button data-bs-dismiss="modal">Thêm Sản Phẩm</button>
+        </form>
+        </div>
+        <!-- Modal footer -->
+        <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+        </div>
+        </div>
+        </div>
+        </div>

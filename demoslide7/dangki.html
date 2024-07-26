@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng Nhập</title>
+    <link rel="stylesheet" href="bootstrap-5.3.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="poly1.css">
+</head>
+
+<body style="background-image:url('img/silde2.jpg'); " >
+    <div class="container m-auto ">
+        <div class="row justify-content-center">
+           
+                <div class="card col-12 ">
+                    <div class="card-header">
+                        <h2 class="text-center"><i class="fa-solid fa-helmet-safety"></i></i>HIFA.vn</h2>
+
+                    </div>
+                    <div class="card-body m-auto" data-bs-tolgle>
+                        <form class=" " action="#" name="formbonus">
+                            <div class="form-group">
+                                <b>Email</b>
+                                <input type="email" class="form-control" ng-model="email" name="txtemail" required >
+
+        
+                            </div>
+                            <div class="col-10 mb-auto">
+                                <div class="form-group">
+                                    <b>Tên Đăng Nhập</b>
+                                    <input type="text" class="form-control" ng-model="fullname" name="txtfullname"
+                                        required maxlength="15">
+                                    
+
+                                </div>
+                            </div>
+                            <div class="col-10 mb-3">
+                                <div class="mb-3">
+                                    <label for="pass" class="form-label">Mật Khẩu</label>
+                                    <input type="password" required maxlength="15" ng-model="pass" class="form-control"
+                                        name="pass" id="pass" aria-describedby="passhelpId" placeholder="" />
+                                   
+                                </div>
+
+                            </div>
+                            <div class="col-10 mb-3">
+                                <label for="exampleInputPassword1" class="form-label">Nhập Lại Mật Khẩu</label>
+                                <input type="password" class="form-control" ng-model="confirmPass" name="confirmPass"
+                                    ng-pattern="pass" required />
+                               
+                            </div>
+                            <button type="submit" class="btn btn-danger ms-5">Sign Up</button>
+                        </form>
+                    </div>
+                </div>
+           
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/66f0085f44.js" crossorigin="anonymous"></script>
+    <script src="bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

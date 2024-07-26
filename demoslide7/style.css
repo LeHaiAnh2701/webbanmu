@@ -1,0 +1,9 @@
+.loading-screen{
+    opacity: 0;
+    z-index: -1;
+    transition: opacity ease 0.5s;
+}
+.loading-screen.active{
+    opacity: 1;
+    z-index: 1;
+}

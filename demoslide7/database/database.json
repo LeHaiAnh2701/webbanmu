@@ -1,0 +1,380 @@
+{
+  "products": [
+    {
+      "id": 4,
+      "name": "Nón 3/4 Napoli",
+      "price": 550000,
+      "img": "img/b6.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Nón 3/4 Kem Bóng",
+      "price": 650000,
+      "img": "img/b1.webp"
+    },
+    {
+      "id": 6,
+      "name": "Nón Nửa Đầu SunDan",
+      "price": 350000,
+      "img": "img/b9.webp"
+    },
+    {
+      "id": 7,
+      "name": "Nón Royal 3/4",
+      "price": 950000,
+      "img": "img/b10.webp"
+    },
+    {
+      "id": 8,
+      "name": "Nón Fullface Bulldog",
+      "price": 850000,
+      "img": "img/b11.webp"
+    },
+    {
+      "id": 9,
+      "name": "Nón Fullface YoHe",
+      "price": 530000,
+      "img": "img/b12.webp"
+    },
+    {
+      "id": 10,
+      "name": "Nón 1/2 Đầu ",
+      "price": 634000,
+      "img": "img/non12.png"
+    },
+    {
+      "id": 11,
+      "name": "Nón Royal M379",
+      "price": 479000,
+      "img": "img/non12a.jpg   "
+    },
+    {
+      "id": 12,
+      "name": "Nón POG Thời Trang ",
+      "price": 483000,
+      "img": "img/b7.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Nón POG Thể Thao",
+      "price": 497000,
+      "img": "img/b8.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Nón KYT 1/2 Tiger",
+      "price": 599000,
+      "img": "img/hd5.jpg"
+    },
+    {
+      "id": 15,
+      "name": "Nón Fullface YoHe ",
+      "price": 730000,
+      "img": "img/c1.webp"
+    },
+    {
+      "id": 6,
+      "name": "Nón KYT 3/4 Đẹp",
+      "price": 1000000,
+      "img": "img/a5.jpg"
+    },
+    {
+      "id": "1201",
+      "img": "img/121.webp",
+      "name": "Nón Xe Đạp Zeus",
+      "price": 330000
+    },
+    {
+      "id": "1202",
+      "img": "img/122.webp",
+      "name": "Nón 1/2 Susan",
+      "price": 350000
+    },
+    {
+      "id": "1203",
+      "img": "img/123.webp",
+      "name": "Nón xe đạp Royal",
+      "price": 335000
+    },
+    {
+      "id": "1204",
+      "img": "img/124.webp",
+      "name": "Nón Pog Có Kính",
+      "price": 430000
+    },
+    {
+      "id": "1205",
+      "img": "img/125.webp",
+      "name": "Nón POG thể thao",
+      "price": 530000
+    },
+    {
+      "id": "1206",
+      "img": "img/126.webp",
+      "name": "Nón 1/2 Falcon Xám",
+      "price": 630000
+    },
+    {
+      "id": "1207",
+      "img": "img/127.webp",
+      "name": "Nón Falcon hồng",
+      "price": 730000
+    },
+    {
+      "id": "1208",
+      "img": "img/128.webp",
+      "name": "Nón 1/2 Napoli",
+      "price": 830000
+    },
+    {
+      "id": "1209",
+      "img": "img/129.webp",
+      "name": "Nón 1/2 Asia",
+      "price": 930000
+    },
+    {
+      "id": "1210",
+      "img": "img/130.webp",
+      "name": "Nón Pog Thể Thao ",
+      "price": 1330000
+    },
+    {
+      "id": "1211",
+      "img": "img/131.webp",
+      "name": "Nón Thể Thao Xe Đạp",
+      "price": 435000
+    },
+    {
+      "id": "1212",
+      "img": "img/132.webp",
+      "name": "Nón Mỏ Quạ POG",
+      "price": 332000
+    },
+    {
+      "id": "1213",
+      "img": "img/133.webp",
+      "name": "Nón Pog Có Kính",
+      "price": 766000
+    },
+    {
+      "id": "1214",
+      "img": "img/134.webp",
+      "name": "Nón POG Tím",
+      "price": 899000
+    },
+    {
+      "id": "1215",
+      "img": "img/135.webp",
+      "name": "Nón thể thao Respol",
+      "price": 756000
+    },
+    {
+      "id": "1216",
+      "img": "img/136.webp",
+      "name": "Nón 1/2 Napoly Xanh",
+      "price": 981000
+    },
+    {
+      "id": "k01",
+      "img": "img/k1.webp",
+      "name": "Kính MSD",
+      "price": 210000
+    },
+    {
+      "id": "k02",
+      "img": "img/k2.webp",
+      "name": "Kính GOGGLES ",
+      "price": 215000
+    },
+    {
+      "id": "k03",
+      "img": "img/k3.webp",
+      "name": "Kính 3/4 Ego",
+      "price": 220000
+    },
+    {
+      "id": "k04",
+      "img": "img/k4.webp",
+      "name": "Kính BEON 7 Màu",
+      "price": 230000
+    },
+    {
+      "id": "k05",
+      "img": "img/k5.webp",
+      "name": "Kính EGO E7",
+      "price": 240000
+    },
+    {
+      "id": "k06",
+      "img": "img/k6.webp",
+      "name": "Kính E-7 Đen",
+      "price": 250000
+    },
+    {
+      "id": "k07",
+      "img": "img/k7.webp",
+      "name": "Kính E7 Trong",
+      "price": 260000
+    },
+    {
+      "id": "k08",
+      "img": "img/k8.webp",
+      "name": "Kính Bulldog Trong",
+      "price": 270000
+    },
+    {
+      "id": "k09",
+      "img": "img/k9.webp",
+      "name": "Kính Bulldog Đen",
+      "price": 280000
+    },
+    {
+      "id": "k010",
+      "img": "img/k10.webp",
+      "name": "Kính Tráng Gương",
+      "price": 290000
+    },
+    {
+      "id": "k011",
+      "img": "img/k11.webp",
+      "name": "Kính 7 Màu",
+      "price": 215000
+    },
+    {
+      "id": "k012",
+      "img": "img/k12.webp",
+      "name": "Kính Tráng Bạc",
+      "price": 225000
+    },
+    {
+      "id": "k013",
+      "img": "img/k13.webp",
+      "name": "Kính T18 NANO",
+      "price": 255000
+    },
+    {
+      "id": "k014",
+      "img": "img/k14.webp",
+      "name": "Kính Nửa Mặt ",
+      "price": 295000
+    },
+    {
+      "id": "k015",
+      "img": "img/k15.webp",
+      "name": "Kính TORC Bạc",
+      "price": 287000
+    },
+    {
+      "id": "k016",
+      "img": "img/k16.webp",
+      "name": "Kính TORC Đen",
+      "price": 206000
+    },
+    {
+      "id": "g01",
+      "img": "img/g1.webp",
+      "name": "Găng Tay Mechanix",
+      "price": 100000
+    },
+    {
+      "id": "g02",
+      "img": "img/g2.webp",
+      "name": "Găng Tay impact",
+      "price": 110000
+    },
+    {
+      "id": "g03",
+      "img": "img/g3.webp",
+      "name": "Găng Tay Suonme ",
+      "price": 120000
+    },
+    {
+      "id": "g04",
+      "img": "img/g4.webp",
+      "name": "Găng Tay Cụt ",
+      "price": 125000
+    },
+    {
+      "id": "g05",
+      "img": "img/g5.webp",
+      "name": "Găng Tay SWAT",
+      "price": 127000
+    },
+    {
+      "id": "g06",
+      "img": "img/g6.webp",
+      "name": "Găng Tay VEMAR",
+      "price": 123000
+    },
+    {
+      "id": "g07",
+      "img": "img/g7.webp",
+      "name": "Găng Tay VEMARTITAN",
+      "price": 155000
+    },
+    {
+      "id": "g08",
+      "img": "img/g8.webp",
+      "name": "Găng Tay SCOYCO",
+      "price": 162000
+    },
+    {
+      "id": "g09",
+      "img": "img/g9.webp",
+      "name": "Găng Tay SCY MC29D",
+      "price": 170000
+    },
+    {
+      "id": "g10",
+      "img": "img/g10.webp",
+      "name": "Găng Tay Bike",
+      "price": 189000
+    },
+    {
+      "id": "g11",
+      "img": "img/g11.webp",
+      "name": "Găng Tay PRO-BIKER",
+      "price": 176000
+    },
+    {
+      "id": "g12",
+      "img": "img/g12.webp",
+      "name": "Găng Tay SSPEC dài",
+      "price": 145000
+    },
+    {
+      "id": "g13",
+      "img": "img/g13.webp",
+      "name": "Găng Tay Chiến Thuật",
+      "price": 134000
+    },
+    {
+      "id": "g14",
+      "img": "img/g14.webp",
+      "name": "Găng Tay MSD",
+      "price": 132000
+    },
+    {
+      "id": "g15",
+      "img": "img/g15.webp",
+      "name": "Găng Tay Thẻ Thao",
+      "price": 156000
+    },
+    {
+      "id": "g16",
+      "img": "img/g16.webp",
+      "name": "Găng Tay Bảo Hộ ",
+      "price": 145000
+    },
+    {
+      "name": "Nón 3/4 kyt Trắng",
+      "price": 546457,
+      "id": "fJKMr0C"
+    },
+    {
+      "name": "Nón 3/4 kyt Trắng 1",
+      "price": 255555,
+      "id": "O2miwL8"
+    }
+  ]
+}

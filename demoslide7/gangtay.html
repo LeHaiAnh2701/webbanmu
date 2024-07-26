@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nón 3/4</title>
+  <link rel="stylesheet" href="bootstrap-5.3.2-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="poly1.css">
+</head>
+
+<body>
+  <div class="container-fluid">
+    
+
+      <div id="carouselExample" class="carousel slide col-10 m-auto" data-bs-ride="carousel">
+        <div class="carousel-inner" style="background-color: gray;">
+          <div class="carousel-item active " data-bs-interval="2000">
+            <img src="img/slide3.jpg" class="d-block w-100" alt="..." height="600px" width="300px">
+            
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="img/slide1.png" class="d-block w-100" alt="..." height="600px" width="300px">
+            
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="img/slide11.png" class="d-block w-100" alt="..." height="600px">
+            
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="img/slide10.jpg" class="d-block w-100" alt="..." height="600px">
+            
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    
+      
+   
+   
+        
+  
+   
+     
+
+
+
+      <div class="row fa-sborder col-10 m-auto ">
+        <aside class="col-sm-3  ">
+          <div class="row  ">
+           
+            <div class="row" style="margin-top: 40px;">
+              
+                <div class="card-title " style="text-align: center;  color:white ;background-color: red;"><b>Sản Phẩm bán Chạy </b></div>
+                <div class="row">
+              <div class="card-body col-sm-5">
+                <img class="card-img-top" src="hd3.jpg"  width="90%">
+              </div>
+              <div class=" col-sm-7">
+                  <b>Nón Full Face</b>
+                   <a href="#"><b>450.000 VNĐ</b></a>
+                  
+               
+    
+               </div>
+                </div>
+                <div class="row">
+                  <div class="card-body col-sm-5">
+                    <img class="card-img-top" src="hd4.jpg"  width="90%">
+                  </div>
+                  <div class=" col-sm-7">
+                      <b>Nón Tiger Jet</b>
+                      <a href="#"><b>450.000 VNĐ</b></a>
+                      
+                   
+        
+                   </div>
+                    </div>
+                    <div class="row">
+                      <div class="card-body col-sm-5">
+                        <img class="card-img-top" src="slide9.jpg"  width="90%">
+                      </div>
+                      <div class=" col-sm-7">
+                          <b>Nón KYT Fullface</b>
+                          <a href="#"><b>450.000 VNĐ</b></a>
+                          
+                       
+            
+                       </div>
+                        </div>
+                       
+                        <div class="card" style="width: 50rem; ">
+                          <div class="accordion" id="accordionExample">
+                            <div class="accordion-item">
+                              <h2 class="accordion-header">
+                                <button class="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                  <b><i class="fa-solid fa-star"></i> Thương Hiệu</b>
+                                  
+                                </button>
+                              </h2>
+                              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                  <ul class="list-group">
+                                    <li class="list-group-item"><a href="#"><b>KYT</b>   </a></li>
+                                    <li class="list-group-item"><a href="#"><b>POC</b> </a></li>
+                                    <li class="list-group-item"><a href="#"><b>ROYAL</b> </a></li>
+                                    
+                                </div>
+                              </div>
+                            </div>
+                           
+                            
+                           
+                          </div>
+                          
+                        </div>   
+                                    
+            </div>
+              
+
+           
+          </div>
+        </aside>
+        <article class="col-sm-9 m-auto ">
+     
+          <div class="col-11 mt-3" >
+            <div class="col-3"><button ng-click="sapxep='price'" class="btn btn{{(sapxep=='price')?'':'-outline'}}-primary">Giá Tăng</button>
+             <button ng-click="sapxep='-price'" class="btn btn{{(sapxep=='-price')?'':'-outline'}}-primary">Giá giảm</button>
+            </div>
+            <input class="form-control " type="text" placeholder="Bạn Cần Tìm Sản Phẩm Gì?" ng-model="keyword">
+          </div>
+          <div class="row">
+            <div class="col-md-3 mt-2" ng-repeat="sp in dssp| filter:{name:keyword} |orderBy:sapxep| limitTo:limit:start ">
+              <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                  <h5 class="card-title">{{sp.name | uppercase}}</h5> <!-- lowercase -->
+                  <img class="card-prod" ng-src="{{sp.img}}" alt="" style="height: 300px; max-width: 100%;">
+                 <a href="#!chitietsanpham/{{sp.id}}" > <b style="color: orangered; ">{{sp.price | currency:'':0}} VNĐ  </b></a>
+                 
+                
+                </div>
+                <button style="width: 60%; margin:auto;" class="btn btn-outline-primary" ng-click="addToCart(sp)">Thêm Vào Giỏ Hàng</button>
+              </div>
+            </div>
+          </div>
+          <nav aria-label="Page navigation example">
+            <ul class="pagination" style=" justify-content: center;">
+              <li class="page-item">
+                <button class="page-link {{(page==1)?'disabled':''}}" href="#" aria-label="Previous" ng-click="chontrang(page-1)">
+                  <span aria-hidden="true">&laquo;</span>
+                </button>
+              </li>
+              <li ng-repeat="trang in dsTrang" class="page-item {{ (trang==page)?'active':'' }}">
+                <button class="page-link" ng-click="chontrang(trang)"> {{trang}} </button>
+              </li>
+              <li class="page-item">
+                <button class="page-link {{(page==tongTrang)?'disabled':''}}" href="#" aria-label="Next"
+                  ng-click="chontrang(page+1)">
+                  <span aria-hidden="true">&raquo;</span>
+                </button>
+              </li>
+            </ul>
+          </nav>
+
+
+
+        </article>
+
+
+      </div>
+
+
+     
+
+
+
+
+
+
+
+
+   
+
+
+  </div>
+  <script src="https://kit.fontawesome.com/66f0085f44.js" crossorigin="anonymous"></script>
+  <script src="bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link rel="stylesheet" href="poly.css">
+
+</head>
+<body>
+  
+
+  <div class="col-md-6 col-lg-6 col-sm-6 mt-3" >
+    <div class="col-3"><button ng-click="sapxep='price'" class="btn btn{{(sapxep=='price')?'':'-outline'}}-primary">Giá Tăng</button>
+     <button ng-click="sapxep='-price'" class="btn btn{{(sapxep=='-price')?'':'-outline'}}-primary">Giá giảm</button>
+    </div>
+    <input class="form-control " type="text" placeholder="Bạn Cần Tìm Sản Phẩm Gì?" ng-model="keyword">
+  </div>
+  <div class="row">
+    <div class="col-md-4 col-lg-3 col-sm-6 mt-2" ng-repeat="sp in dssp| filter:{name:keyword} |orderBy:sapxep| limitTo:limit:start ">
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">{{sp.name | uppercase}}</h5> <!-- lowercase -->
+          <img class="card-prod" ng-src="{{sp.img}}" alt="" style="height: 300px; max-width: 100%;">
+         <a href="#!detail/{{sp.id}}" > <b style="color: orangered; ">{{sp.price | currency:'đ':0}}</b></a>
+        
+        </div>
+      </div>
+    </div>
+  </div>
+  <nav aria-label="Page navigation example">
+    <ul class="pagination" style=" justify-content: center;">
+      <li class="page-item">
+        <button class="page-link {{(page==1)?'disabled':''}}" href="#" aria-label="Previous" ng-click="chontrang(page-1)">
+          <span aria-hidden="true">&laquo;</span>
+        </button>
+      </li>
+      <li ng-repeat="trang in dsTrang" class="page-item {{ (trang==page)?'active':'' }}">
+        <button class="page-link" ng-click="chontrang(trang)"> {{trang}} </button>
+      </li>
+      <li class="page-item">
+        <button class="page-link {{(page==tongTrang)?'disabled':''}}" href="#" aria-label="Next"
+          ng-click="chontrang(page+1)">
+          <span aria-hidden="true">&raquo;</span>
+        </button>
+      </li>
+    </ul>
+  </nav>
+ 
+
+     
+      
+</body>
+</html>

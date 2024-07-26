@@ -1,0 +1,136 @@
+
+body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url('your-background-image.jpg'); /* Thay 'your-background-image.jpg' bằng đường dẫn đến hình nền của bạn */
+      background-size: cover;
+      background-position: center;
+   
+     
+      display: flex;
+      align-items: center;
+      justify-content: center;
+}
+header{
+   position: relative;
+    height: 60px;
+    width: 100%;
+    background-color:rgba(237, 77, 19, 0.851);
+ 
+  
+    
+}
+.navbar-color{
+    background-color: rgb(185, 115, 11);
+}
+
+
+
+
+.container>div>*{
+    width: 40%;
+    min-height: 300px;
+ 
+   
+}
+.container>div>article{
+    width: 70%;
+    
+    }
+footer{
+    background-color: rgb(54, 53, 53);
+    min-height:50px;
+   
+  
+}
+.container{
+    margin: 0;
+    width: 100%;
+}
+
+.shopping-mall>h3{
+
+font-size: 50px;
+color: white;
+letter-spacing: 0.3px;
+text-shadow: 0 0 2px black;
+padding-bottom: 0 ;
+
+margin: 0;
+
+}
+
+.img{
+    margin-left: 58%;
+}
+.row input{
+    margin-left: 45px;
+   border-radius: 5px;
+}
+.list-group-item a{
+text-decoration:none ;
+color: black;
+}
+.list-group-item a:hover{
+background-color:grey;
+
+}
+aside div ul li a{
+    text-decoration: none;
+    color: black;
+}
+article div * {
+text-align: center;
+text-decoration: none;
+color: black;
+}
+article div a:hover{
+background-color: rgb(106, 106, 204);
+}
+.item ul{
+list-style-type:none ;
+}
+aside .row{
+    margin: 3px;
+}
+aside .card {
+margin: 15px 0px 15px 0px;
+}
+footer div ul li{
+
+list-style-type:none ;
+}
+footer {
+    color: white;
+    width: 100%;
+    height: auto;
+  
+}
+.row button a{
+    text-decoration: none;
+    color: white;
+}
+.row button a:hover{
+    background-color: rgb(241, 14, 6);
+    
+}
+nav div a{
+    text-decoration: none;
+    color: black;
+}
+aside div a{
+    text-decoration: none;
+    color: red;
+}
+article div ul li{
+    text-align: start;
+}
+article div ul h2{
+    text-align:  start;
+}
+article div ul li   {
+  list-style-type: none;
+  text-align: start;
+    
+}
